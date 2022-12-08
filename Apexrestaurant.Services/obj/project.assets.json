@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Apexrestaurant.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Apexrestaurant.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Apexrestaurant.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Apexrestaurant.Repository/1.0.0": {
+      "type": "project",
+      "path": "../Apexrestaurant.Repository/Apexrestaurant.Repository.csproj",
+      "msbuildProject": "../Apexrestaurant.Repository/Apexrestaurant.Repository.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Apexrestaurant.Repository >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/nischal/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Services/Apexrestaurant.Services.csproj",
+      "projectName": "Apexrestaurant.Services",
+      "projectPath": "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Services/Apexrestaurant.Services.csproj",
+      "packagesPath": "/Users/nischal/.nuget/packages/",
+      "outputPath": "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Services/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/nischal/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/Apexrestaurant.Repository.csproj": {
+              "projectPath": "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/Apexrestaurant.Repository.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

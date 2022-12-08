@@ -1,0 +1,15 @@
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Services/bin/Debug/net7.0/Apexrestaurant.Services.deps.json
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Services/bin/Debug/net7.0/Apexrestaurant.Services.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Services/bin/Debug/net7.0/Apexrestaurant.Services.pdb
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Services/bin/Debug/net7.0/Apexrestaurant.Repository.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Services/bin/Debug/net7.0/Apexrestaurant.Repository.pdb
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Services/obj/Debug/net7.0/Apexrestaurant.Services.csproj.AssemblyReference.cache
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Services/obj/Debug/net7.0/Apexrestaurant.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Services/obj/Debug/net7.0/Apexrestaurant.Services.AssemblyInfoInputs.cache
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Services/obj/Debug/net7.0/Apexrestaurant.Services.AssemblyInfo.cs
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Services/obj/Debug/net7.0/Apexrestaurant.Services.csproj.CoreCompileInputs.cache
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Services/obj/Debug/net7.0/Apexrestaurant.Services.csproj.CopyComplete
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Services/obj/Debug/net7.0/Apexrestaurant.Services.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Services/obj/Debug/net7.0/refint/Apexrestaurant.Services.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Services/obj/Debug/net7.0/Apexrestaurant.Services.pdb
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Services/obj/Debug/net7.0/ref/Apexrestaurant.Services.dll

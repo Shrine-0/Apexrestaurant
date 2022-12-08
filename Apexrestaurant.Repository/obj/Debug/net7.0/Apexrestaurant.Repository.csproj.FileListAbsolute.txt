@@ -1,0 +1,12 @@
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/bin/Debug/net7.0/Apexrestaurant.Repository.deps.json
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/bin/Debug/net7.0/Apexrestaurant.Repository.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/bin/Debug/net7.0/Apexrestaurant.Repository.pdb
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/obj/Debug/net7.0/Apexrestaurant.Repository.csproj.AssemblyReference.cache
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/obj/Debug/net7.0/Apexrestaurant.Repository.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/obj/Debug/net7.0/Apexrestaurant.Repository.AssemblyInfoInputs.cache
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/obj/Debug/net7.0/Apexrestaurant.Repository.AssemblyInfo.cs
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/obj/Debug/net7.0/Apexrestaurant.Repository.csproj.CoreCompileInputs.cache
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/obj/Debug/net7.0/Apexrestaurant.Repository.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/obj/Debug/net7.0/refint/Apexrestaurant.Repository.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/obj/Debug/net7.0/Apexrestaurant.Repository.pdb
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/obj/Debug/net7.0/ref/Apexrestaurant.Repository.dll
