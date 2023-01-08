@@ -5,12 +5,15 @@ using System.Threading.Tasks;
 using Apexrestaurant.Repository.Domain;
 using Apexrestaurant.Services.SCustomer;
 using Microsoft.AspNetCore.Mvc;
+using MySql.Data.MySqlClient;
 
 namespace Apexrestaurant.Api.Controllers
 {
     [Route("api/customer")]
+   // [ApiController]
     public class CustomerController : ControllerBase
     {
+        //private readonly string _connectionString = "server=127.0.0.1;database=ApexRestaurantDB;Uid=root;password=forlorn123X";
         private readonly ICustomerService _customerService;
         public CustomerController(ICustomerService customerService)
         {
@@ -53,6 +56,26 @@ namespace Apexrestaurant.Api.Controllers
             _customerService.Delete(model);
             return Ok();
         }
+        
+        // [HttpGet]
+        // public ActionResult<IEnumerable<string>> Get()
+        // {
+        //     List<string> values =  new List<string>();
+        //     using(var connection=new MySqlConnection(_connectionString))
+        //     {
+        //         connection.Open();
+        //         using (var command  = new MySqlCommand("SELECT * FROM Customers",connection))
+        //         using (var reader = command.ExecuteReader())
+        //         {
+        //             while(reader.Read())
+        //             {
+        //                 values.Add(reader["value"].ToString());
+        //             }
+        //         }
+
+        //     }
+        //     return values;
+        // }
     }
 
 }
