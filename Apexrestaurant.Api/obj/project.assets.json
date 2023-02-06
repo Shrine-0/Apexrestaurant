@@ -1388,7 +1388,6 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
-          "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Newtonsoft.Json": "13.0.2",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
@@ -1403,8 +1402,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Apexrestaurant.Repository": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection": "7.0.0"
+          "Apexrestaurant.Repository": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Apexrestaurant.Services.dll": {}
