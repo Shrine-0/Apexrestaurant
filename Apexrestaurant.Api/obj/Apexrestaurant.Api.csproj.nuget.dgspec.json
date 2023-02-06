@@ -65,10 +65,6 @@
               "target": "Package",
               "version": "[7.0.1, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.1, )"
-            },
             "Microsoft.Extensions.Caching.Abstractions": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -115,7 +111,7 @@
             },
             "MySql.Data": {
               "target": "Package",
-              "version": "[8.0.31, )"
+              "version": "[8.0.32, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -185,9 +181,21 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.1, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0-preview.3.22175.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0-preview.2.22153.1, )"
+            },
+            "MySql.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
