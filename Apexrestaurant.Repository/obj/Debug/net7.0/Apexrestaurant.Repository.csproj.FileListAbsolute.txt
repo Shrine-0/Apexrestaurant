@@ -1,4 +1,5 @@
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/bin/Debug/net7.0/Apexrestaurant.Repository.deps.json
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/bin/Debug/net7.0/Apexrestaurant.Repository.runtimeconfig.json
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/bin/Debug/net7.0/Apexrestaurant.Repository.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/bin/Debug/net7.0/Apexrestaurant.Repository.pdb
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/obj/Debug/net7.0/Apexrestaurant.Repository.csproj.AssemblyReference.cache
@@ -9,4 +10,5 @@
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/obj/Debug/net7.0/Apexrestaurant.Repository.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/obj/Debug/net7.0/refint/Apexrestaurant.Repository.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/obj/Debug/net7.0/Apexrestaurant.Repository.pdb
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/obj/Debug/net7.0/Apexrestaurant.Repository.genruntimeconfig.cache
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Repository/obj/Debug/net7.0/ref/Apexrestaurant.Repository.dll
