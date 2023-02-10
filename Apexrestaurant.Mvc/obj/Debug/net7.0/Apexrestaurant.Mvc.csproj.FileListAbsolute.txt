@@ -8,6 +8,7 @@
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Apexrestaurant.Mvc.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Apexrestaurant.Mvc.pdb
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Humanizer.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/System.Net.Http.Formatting.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.UI.dll
@@ -19,6 +20,8 @@
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Sqlite.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Newtonsoft.Json.Bson.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/SQLitePCLRaw.batteries_v2.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/SQLitePCLRaw.core.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/SQLitePCLRaw.provider.e_sqlite3.dll
