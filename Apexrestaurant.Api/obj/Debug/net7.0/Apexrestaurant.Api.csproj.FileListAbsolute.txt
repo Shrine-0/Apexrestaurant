@@ -1,8 +1,8 @@
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/bin/Debug/net7.0/appsettings.Development.json
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/bin/Debug/net7.0/appsettings.json
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/bin/Debug/net7.0/Apexrestaurant.Api
-/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/bin/Debug/net7.0/Apexrestaurant.Api.deps.json
-/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/bin/Debug/net7.0/Apexrestaurant.Api.runtimeconfig.json
+/Users/nischal/Documents/Apexrestaurant/apexrestaurant.api/bin/Debug/net7.0/Apexrestaurant.Api.deps.json
+/Users/nischal/Documents/Apexrestaurant/apexrestaurant.api/bin/Debug/net7.0/Apexrestaurant.Api.runtimeconfig.json
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/bin/Debug/net7.0/Apexrestaurant.Api.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/bin/Debug/net7.0/Apexrestaurant.Api.pdb
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/bin/Debug/net7.0/Google.Protobuf.dll
@@ -59,9 +59,9 @@
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/obj/Debug/net7.0/staticwebassets.build.json
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/obj/Debug/net7.0/staticwebassets.development.json
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/obj/Debug/net7.0/scopedcss/bundle/Apexrestaurant.Api.styles.css
-/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/obj/Debug/net7.0/Apexrestaurant.Api.csproj.CopyComplete
+/Users/nischal/Documents/Apexrestaurant/apexrestaurant.api/obj/Debug/net7.0/Apexrestaurant.Api.csproj.CopyComplete
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/obj/Debug/net7.0/Apexrestaurant.Api.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/obj/Debug/net7.0/refint/Apexrestaurant.Api.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/obj/Debug/net7.0/Apexrestaurant.Api.pdb
-/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/obj/Debug/net7.0/Apexrestaurant.Api.genruntimeconfig.cache
-/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/obj/Debug/net7.0/ref/Apexrestaurant.Api.dll
+/Users/nischal/Documents/Apexrestaurant/apexrestaurant.api/obj/Debug/net7.0/Apexrestaurant.Api.genruntimeconfig.cache
+/Users/nischal/Documents/Apexrestaurant/apexrestaurant.api/obj/Debug/net7.0/ref/Apexrestaurant.Api.dll
