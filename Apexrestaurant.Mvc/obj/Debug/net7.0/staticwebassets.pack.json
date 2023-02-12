@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/obj/Debug/net7.0/scopedcss/projectbundle/Apexrestaurant.mvc.bundle.scp.css",
-      "PackagePath": "staticwebassets/Apexrestaurant.mvc.bundle.scp.css"
+      "Id": "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/obj/Debug/net7.0/scopedcss/projectbundle/Apexrestaurant.Mvc.bundle.scp.css",
+      "PackagePath": "staticwebassets/Apexrestaurant.Mvc.bundle.scp.css"
     },
     {
       "Id": "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/wwwroot/css/site.css",
@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.Apexrestaurant.mvc.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.Apexrestaurant.Mvc.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.Apexrestaurant.mvc.props",
-      "PackagePath": "build\\Apexrestaurant.mvc.props"
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.Apexrestaurant.Mvc.props",
+      "PackagePath": "build\\Apexrestaurant.Mvc.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Apexrestaurant.mvc.props",
-      "PackagePath": "buildMultiTargeting\\Apexrestaurant.mvc.props"
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Apexrestaurant.Mvc.props",
+      "PackagePath": "buildMultiTargeting\\Apexrestaurant.Mvc.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Apexrestaurant.mvc.props",
-      "PackagePath": "buildTransitive\\Apexrestaurant.mvc.props"
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Apexrestaurant.Mvc.props",
+      "PackagePath": "buildTransitive\\Apexrestaurant.Mvc.props"
     }
   ],
   "ElementsToRemove": []

@@ -7,8 +7,8 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Apexrestaurant.mvc
-build_property.RootNamespace = Apexrestaurant.mvc
+build_property.RootNamespace = Apexrestaurant.Mvc
+build_property.RootNamespace = Apexrestaurant.Mvc
 build_property.ProjectDir = /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
@@ -18,6 +18,26 @@ build_property._RazorSourceGeneratorDebug =
 
 [/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/Views/Customers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/Views/Customers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/Views/Customers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/Views/Customers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/Views/Customers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/Views/Home/Index.cshtml]
@@ -50,4 +70,4 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-qwi9oxsjz4
+build_metadata.AdditionalFiles.CssScope = b-esinzpgdq3

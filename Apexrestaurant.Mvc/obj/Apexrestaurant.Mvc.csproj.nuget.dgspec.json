@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/Apexrestaurant.mvc.csproj": {}
+    "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/Apexrestaurant.Mvc.csproj": {}
   },
   "projects": {
-    "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/Apexrestaurant.mvc.csproj": {
+    "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/Apexrestaurant.Mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/Apexrestaurant.mvc.csproj",
-        "projectName": "Apexrestaurant.mvc",
-        "projectPath": "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/Apexrestaurant.mvc.csproj",
+        "projectUniqueName": "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/Apexrestaurant.Mvc.csproj",
+        "projectName": "Apexrestaurant.Mvc",
+        "projectPath": "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/Apexrestaurant.Mvc.csproj",
         "packagesPath": "/Users/nischal/.nuget/packages/",
         "outputPath": "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/obj/",
         "projectStyle": "PackageReference",
@@ -50,6 +50,16 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.2, )"
@@ -65,6 +75,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[7.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
             }
           },
           "imports": [
