@@ -12,19 +12,19 @@ namespace Apexrestaurant.mvc.Controllers
     public class CustomersController : Controller
     {
         private readonly TodoContext _context;
-        
-    
+
         public CustomersController(TodoContext context)
         {
             _context = context;
         }
 
         // GET: Customers
+        [Route("api/customer")]
         public async Task<IActionResult> Index()
         {
-              return _context.Customers != null ? 
-                          View(await _context.Customers.ToListAsync()) :
-                          Problem("Entity set 'TodoContext.Customers'  is null.");
+            return _context.Customers != null
+                ? View(await _context.Customers.ToListAsync())
+                : Problem("Entity set 'TodoContext.Customers'  is null.");
         }
 
         // GET: Customers/Details/5
@@ -35,8 +35,7 @@ namespace Apexrestaurant.mvc.Controllers
                 return NotFound();
             }
 
-            var customer = await _context.Customers
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var customer = await _context.Customers.FirstOrDefaultAsync(m => m.Id == id);
             if (customer == null)
             {
                 return NotFound();
@@ -56,7 +55,12 @@ namespace Apexrestaurant.mvc.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,Address,PhoneRes,PhoneMob,EnrollDate,IsActive,CreatedBy,CreatedOn,UpdatedBy,UpdatedOn")] Customer customer)
+        public async Task<IActionResult> Create(
+            [Bind(
+                "Id,FirstName,LastName,Address,PhoneRes,PhoneMob,EnrollDate,IsActive,CreatedBy,CreatedOn,UpdatedBy,UpdatedOn"
+            )]
+                Customer customer
+        )
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +92,13 @@ namespace Apexrestaurant.mvc.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,FirstName,LastName,Address,PhoneRes,PhoneMob,EnrollDate,IsActive,CreatedBy,CreatedOn,UpdatedBy,UpdatedOn")] Customer customer)
+        public async Task<IActionResult> Edit(
+            int id,
+            [Bind(
+                "Id,FirstName,LastName,Address,PhoneRes,PhoneMob,EnrollDate,IsActive,CreatedBy,CreatedOn,UpdatedBy,UpdatedOn"
+            )]
+                Customer customer
+        )
         {
             if (id != customer.Id)
             {
@@ -126,8 +136,7 @@ namespace Apexrestaurant.mvc.Controllers
                 return NotFound();
             }
 
-            var customer = await _context.Customers
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var customer = await _context.Customers.FirstOrDefaultAsync(m => m.Id == id);
             if (customer == null)
             {
                 return NotFound();
@@ -150,14 +159,14 @@ namespace Apexrestaurant.mvc.Controllers
             {
                 _context.Customers.Remove(customer);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool CustomerExists(int id)
         {
-          return (_context.Customers?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.Customers?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
