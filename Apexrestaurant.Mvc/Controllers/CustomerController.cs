@@ -8,6 +8,9 @@ using Newtonsoft.Json;
 using Microsoft.Extensions.Configuration;
 using System.Net.Http;
 
+namespace Apexrestaurant.Mvc.Controllers;
+
+[Route("api/customer")]
 public class CustomerController : Controller
 {
     private string baseUri;
