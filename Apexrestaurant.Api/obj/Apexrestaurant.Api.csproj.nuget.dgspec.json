@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/Apexrestaurant.Api.csproj": {}
+    "/Users/nischal/Documents/Apexrestaurant/apexrestaurant.api/Apexrestaurant.Api.csproj": {}
   },
   "projects": {
-    "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/Apexrestaurant.Api.csproj": {
+    "/Users/nischal/Documents/Apexrestaurant/apexrestaurant.api/Apexrestaurant.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/Apexrestaurant.Api.csproj",
+        "projectUniqueName": "/Users/nischal/Documents/Apexrestaurant/apexrestaurant.api/Apexrestaurant.Api.csproj",
         "projectName": "Apexrestaurant.Api",
-        "projectPath": "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/Apexrestaurant.Api.csproj",
+        "projectPath": "/Users/nischal/Documents/Apexrestaurant/apexrestaurant.api/Apexrestaurant.Api.csproj",
         "packagesPath": "/Users/nischal/.nuget/packages/",
-        "outputPath": "/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Api/obj/",
+        "outputPath": "/Users/nischal/Documents/Apexrestaurant/apexrestaurant.api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nischal/.nuget/NuGet/NuGet.Config"
