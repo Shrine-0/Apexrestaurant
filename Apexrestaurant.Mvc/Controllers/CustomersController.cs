@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Apexrestaurant.Mvc.Models;
+using System.Net.Http.Headers;
+// using System.Net.Http.Formatting;
+
 
 namespace Apexrestaurant.mvc.Controllers
 {
@@ -19,16 +22,38 @@ namespace Apexrestaurant.mvc.Controllers
         }
 
         // GET: Customers
+        [HttpGet]
         [Route("api/customer")]
         public async Task<IActionResult> Index()
         {
             return _context.Customers != null
                 ? View(await _context.Customers.ToListAsync())
                 : Problem("Entity set 'TodoContext.Customers'  is null.");
+            // using (var httpClient = new HttpClient())
+            // {
+            //     httpClient.BaseAddress = new Uri("https://localhost:5001/api/customer/");
+            //     httpClient.DefaultRequestHeaders.Accept.Clear();
+            //     httpClient.DefaultRequestHeaders.Accept.Add(
+            //         new MediaTypeWithQualityHeaderValue("application/json")
+            //     );
+
+            //     // Call the remote API and handle the response
+            //     HttpResponseMessage response = await httpClient.GetAsync("items");
+            //     if (response.IsSuccessStatusCode)
+            //     {
+            //         var items = await response.Content.ReadAsAsync<List<Item>>();
+            //         return View(items);
+            //     }
+            //     else
+            //     {
+            //         return View("Error");
+            //     }
+            // }
         }
 
         // GET: Customers/Details/5
-        public async Task<IActionResult> Details(int? id)
+
+        public async Task<IActionResult> Details([FromRoute] int? id)
         {
             if (id == null || _context.Customers == null)
             {
@@ -45,6 +70,7 @@ namespace Apexrestaurant.mvc.Controllers
         }
 
         // GET: Customers/Create
+
         public IActionResult Create()
         {
             return View();
@@ -72,7 +98,8 @@ namespace Apexrestaurant.mvc.Controllers
         }
 
         // GET: Customers/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+
+        public async Task<IActionResult> Edit([FromRoute] int? id)
         {
             if (id == null || _context.Customers == null)
             {
@@ -93,7 +120,7 @@ namespace Apexrestaurant.mvc.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(
-            int id,
+            [FromRoute] int id,
             [Bind(
                 "Id,FirstName,LastName,Address,PhoneRes,PhoneMob,EnrollDate,IsActive,CreatedBy,CreatedOn,UpdatedBy,UpdatedOn"
             )]
@@ -129,6 +156,7 @@ namespace Apexrestaurant.mvc.Controllers
         }
 
         // GET: Customers/Delete/5
+
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Customers == null)

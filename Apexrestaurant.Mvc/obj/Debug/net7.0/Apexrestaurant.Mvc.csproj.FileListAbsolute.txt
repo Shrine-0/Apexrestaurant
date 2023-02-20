@@ -9,7 +9,11 @@
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Apexrestaurant.Mvc.pdb
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Azure.Core.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Azure.Identity.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Google.Protobuf.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Humanizer.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/K4os.Compression.LZ4.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/K4os.Compression.LZ4.Streams.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/K4os.Hash.xxHash.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.UI.dll
@@ -63,6 +67,14 @@
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/MySql.Data.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/ZstdNet.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/comerr64.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/gssapi64.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/k5sprt64.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/krb5_64.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/krbcc64.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/MySql.EntityFrameworkCore.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/Newtonsoft.Json.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/NuGet.Common.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/NuGet.Configuration.dll
@@ -73,6 +85,7 @@
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/NuGet.ProjectModel.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/NuGet.Protocol.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/NuGet.Versioning.dll
+/Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/BouncyCastle.Crypto.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/SQLitePCLRaw.batteries_v2.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/SQLitePCLRaw.core.dll
 /Users/nischal/Documents/Apexrestaurant/Apexrestaurant.Mvc/bin/Debug/net7.0/SQLitePCLRaw.provider.e_sqlite3.dll

@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Apexrestaurant.Mvc.Data;
 using Apexrestaurant.Mvc.Models;
 using Microsoft.EntityFrameworkCore.InMemory;
+using MySql.EntityFrameworkCore;
+using MySql.Data.MySqlClient;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,7 +20,10 @@ builder.Services
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient();
-builder.Services.AddDbContext<TodoContext>(opt => opt.UseInMemoryDatabase("Todolist"));
+builder.Services.AddDbContext<TodoContext>(options=>
+{
+    options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
 
 var app = builder.Build();
 
